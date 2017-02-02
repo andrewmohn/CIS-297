@@ -1,0 +1,9 @@
+C:\Users\Andrew\Documents\GitHub\CIS-297\Yahtzee\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe.config
+C:\Users\Andrew\Documents\GitHub\CIS-297\Yahtzee\Yahtzee\Yahtzee\bin\Debug\Yahtzee.exe
+C:\Users\Andrew\Documents\GitHub\CIS-297\Yahtzee\Yahtzee\Yahtzee\bin\Debug\Yahtzee.pdb
+C:\Users\Andrew\Documents\GitHub\CIS-297\Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csprojResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\GitHub\CIS-297\Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.yahtzeeGame.resources
+C:\Users\Andrew\Documents\GitHub\CIS-297\Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.Properties.Resources.resources
+C:\Users\Andrew\Documents\GitHub\CIS-297\Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.csproj.GenerateResource.Cache
+C:\Users\Andrew\Documents\GitHub\CIS-297\Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.exe
+C:\Users\Andrew\Documents\GitHub\CIS-297\Yahtzee\Yahtzee\Yahtzee\obj\Debug\Yahtzee.pdb
