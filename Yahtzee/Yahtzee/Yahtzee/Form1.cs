@@ -273,6 +273,8 @@ namespace Yahtzee
                         }
                         threeOfAKindScore.Text = score.ToString();
                         rollCount = 0;
+                        updateTotalScore();
+                        unlockAllDice();
                         return;
                     }
                     //Reset count to go around again.
@@ -305,6 +307,8 @@ namespace Yahtzee
                         }
                         fourOfAKindScore.Text = score.ToString();
                         rollCount = 0;
+                        updateTotalScore();
+                        unlockAllDice();
                         return;
                     }
                     //Reset count to go around again.
@@ -352,7 +356,7 @@ namespace Yahtzee
                 //Sort
                 for(int i = 0; i < rolls.Length-1; i++)
                 {
-                    for(int j = 0; j < rolls.Length; j++)
+                    for(int j = i; j < rolls.Length; j++)
                     {
                         if(rolls[i] > rolls[j])
                         {
@@ -369,10 +373,12 @@ namespace Yahtzee
                     if(rolls[i] + 1 == rolls[i+1])
                     {
                         j++;
-                        if (j > 2)
+                        if (j >= 2)
                         {
                             smallStraightScore.Text = "30";
                             rollCount = 0;
+                            updateTotalScore();
+                            unlockAllDice();
                             return;
                         }
                     }
@@ -390,7 +396,7 @@ namespace Yahtzee
                 //Sort
                 for (int i = 0; i < rolls.Length - 1; i++)
                 {
-                    for (int j = 0; j < rolls.Length; j++)
+                    for (int j = i; j < rolls.Length; j++)
                     {
                         if (rolls[i] > rolls[j])
                         {
@@ -407,10 +413,12 @@ namespace Yahtzee
                     if (rolls[i] + 1 == rolls[i + 1])
                     {
                         j++;
-                        if (j > 3)
+                        if (j >= 3)
                         {
                             largeStraightScore.Text = "40";
                             rollCount = 0;
+                            updateTotalScore();
+                            unlockAllDice();
                             return;
                         }
                     }
@@ -431,6 +439,8 @@ namespace Yahtzee
                     {
                         YahtzeeScore.Text = "0";
                         rollCount = 0;
+                        updateTotalScore();
+                        unlockAllDice();
                         return;
                     }
                 }

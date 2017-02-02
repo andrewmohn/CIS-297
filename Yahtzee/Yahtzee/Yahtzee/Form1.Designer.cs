@@ -96,7 +96,7 @@
             "Four of a Kind",
             "Full House",
             "Small Straight",
-            "LargeStraight",
+            "Large Straight",
             "Yahtzee",
             "Chance"});
             this.saveAsTextBox.Location = new System.Drawing.Point(172, 359);
